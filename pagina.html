@@ -1,0 +1,65 @@
+<!--
+* Calculadora Simples e de Programador
+* https://github.com/arthursvpb
+* https://www.linkedin.com/in/arthurvasconcellospb/
+* Copyright 2018, Arthur Vasconcellos <contatoarthursilveira@gmail.com>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora Javascript</title>
+    <!-- Chamada para o CSS -->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- Chamada para biblioteca do JQuery e do arquivo .js -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p class="header">CALCULADORA JAVASCRIPT</p>
+    <!-- Estrutura da calculadora (Box principal) -->
+    <div class="container">
+
+      <!-- Topo da calculadora (Visor) -->
+      <header class="top">
+        <form class="form" method="">
+          <label id="op"></label> <!-- Operação -->
+          <input type="text" id="result" class="campo">
+        </form>
+      </header>
+      
+      <!-- Corpo da calculadora -->
+      <section class="body">
+        <!-- Adicionando botões na calculadora -->
+        <input type="button" value="BIN" name="bin" class="btn bin">
+        <input type="button" value="HEX" name="hex" class="btn hex">
+        <input type="button" value="OCT" name="oct" class="btn oct">
+        <input type="button" value="7" name="btn" class="btn">
+        <input type="button" value="8" name="btn" class="btn">
+        <input type="button" value="9" name="btn" class="btn">
+        <input type="button" value="+" name="soma" class="btn">
+        <input type="button" value="C" name="c" class="btn">
+        <input type="button" value="4" name="btn" class="btn">
+        <input type="button" value="5" name="btn" class="btn">
+        <input type="button" value="6" name="btn" class="btn">       
+        <input type="button" value="-" name="menos" class="btn">
+        <input type="button" value="CE" name="ce" class="btn">
+        <input type="button" value="1" name="btn" class="btn">
+        <input type="button" value="2" name="btn" class="btn">
+        <input type="button" value="3" name="btn" class="btn">
+        <input type="button" value="*" name="vezes" class="btn">
+        <input type="button" value="=" name="igual" class="btn igual">
+        <input type="button" value="0" name="btn" class="btn zero">
+        <input type="button" value="." name="btn" class="btn">
+        <input type="button" value="/" name="div" class="btn">
+      </section>
+
+    </div>
+
+    <p class="title">Feita por: Arthur Vasconcellos</p>
+
+  </body>
+</html>

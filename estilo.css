@@ -1,0 +1,112 @@
+/**
+* Calculadora Simples e de Programador
+* https://github.com/arthursvpb
+* https://www.linkedin.com/in/arthurvasconcellospb/
+* Copyright 2018, Arthur Vasconcellos <contatoarthursilveira@gmail.com>
+*/
+
+body{
+	background: #E0FFFF
+}
+
+.header{
+	font-weight: bold;
+	font-family: Helvetica;
+	text-align: center;
+	position: relative;
+	margin: 100px auto;
+	width: 315px;
+	height: auto;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #d0d0d0;
+	box-shadow: 4px 4px 4px #909090;
+}
+
+.title{
+	font-weight: bold;
+	font-family: Helvetica;
+	text-align: center;
+	position: relative;
+	margin: 100px auto;
+	width: 315px;
+	height: auto;
+	padding: 10px;
+	font-size: large;
+}
+
+.container{
+	position: relative;
+	margin: 100px auto;  
+	width: 315px;
+	height: auto;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #d0d0d0;
+	box-shadow: 4px 4px 4px #909090;
+}
+
+.top{
+	position: relative;
+	width: 97%;
+	height: 48px;
+	padding: 6px;
+	background: #A2B5CD;
+}
+
+.body{
+	margin-top: 10px;
+	width: 95%;
+	height: auto;
+	padding: 9px;
+	background: #BCD2EE;
+}
+
+.campo{
+	width: 100%;
+	height: 100%;
+	border: none;
+	opacity: 0.5;
+	color: #5F9EA0;
+	font-size: 40px;
+	text-align: right;
+}
+
+.btn{
+	margin-top: 4px;
+	width: 56.6px;
+	height: 50px;
+	background: #A2B5CD;
+	color:  #fff;
+	border: none;
+	font-size: 20px;
+}
+
+.zero{
+	width: 116px;
+}
+
+.igual{
+	position: absolute;
+	height: 107px;
+}
+
+#op{
+	position: absolute;
+	z-index: 999;
+	margin: 15px 10px;
+	font-weight: bold;
+	color: #800080;
+}
+
+.bin{
+	width: 97px;
+}
+
+.oct{
+	width: 97px;
+}
+
+.hex{
+	width: 97px;
+}
