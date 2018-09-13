@@ -1,8 +1,12 @@
-/**
+/*
 * Calculadora Simples e de Programador Usando JQuery
-* https://github.com/arthursvpb
-* https://www.linkedin.com/in/arthurvasconcellospb/
-* Copyright 2018, Arthur Vasconcellos <contatoarthursilveira@gmail.com>
+* -----------------------------------------------------
+* Arthur Vasconcellos <contatoarthursilveira@gmail.com>
+* github.com/arthursvpb
+* linkedin.com/in/arthursvpb
+* facebook.com/arthursvpb
+* twitter.com/arthursvpb
+* -----------------------------------------------------
 */
 
 //Começando os códigos..
