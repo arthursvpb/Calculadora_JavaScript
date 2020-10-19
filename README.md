@@ -1,5 +1,5 @@
 # Calculadora JS
-<p>Calculadora simples e com conversões de decimal para hexadecimal, octal e binário. Feito com HTML, CSS e Javascript + JQuery</p>
+<p>Simple calculator with conversions from decimal to hexadecimal, octal and binary. Made with HTML, CSS and Javascript + JQuery</p>
 <h1 align="center">
     <img alt="Calculator" title="Calculator" src=".github/calculator.png" />
 </h1>
